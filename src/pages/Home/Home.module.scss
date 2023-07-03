@@ -1,0 +1,87 @@
+.container {
+  margin: 0 auto 80px;
+  width: 1360px;
+
+  @media (max-width: 1379px) {
+    width: 1136px;
+  }
+
+  @media (max-width: 1155px) {
+    width: 912px;
+  }
+
+  @media (max-width: 931px) {
+    width: 688px;
+  }
+
+  @media (max-width: 707px) {
+    width: 444px;
+  }
+}
+
+.cards {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+  width: 1360px;
+
+  @media (max-width: 1379px) {
+    width: 1096px;
+  }
+
+  @media (max-width: 1155px) {
+    width: 872px;
+  }
+
+  @media (max-width: 931px) {
+    width: 648px;
+  }
+
+  @media (max-width: 707px) {
+    width: 424px;
+  }
+}
+
+.filters {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+  width: 1360px;
+
+  @media (max-width: 1379px) {
+    width: 1096px;
+  }
+
+  @media (max-width: 1155px) {
+    width: 872px;
+  }
+
+  @media (max-width: 931px) {
+    width: 648px;
+  }
+
+  @media (max-width: 707px) {
+    width: 424px;
+  }
+}
+
+.button {
+  transition: 0.2s;
+  width: 200px;
+  background: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin-left: calc(50% - 100px);
+
+  &:hover {
+    transition: 0.2s;
+    transform: scale(1.1, 1.1);
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
